@@ -1,6 +1,6 @@
 <div align="center">
 
-# Physiotrack
+# PySen2Sem (formerly Physiotrack)
 
 **Contactless human understanding: turning pixels into interpretable physiological and behavioral signals.**
 
