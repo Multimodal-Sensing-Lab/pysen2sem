@@ -25,7 +25,7 @@
 
 ---
 
-**Physiotrack** is an open-source Python toolkit for contactless human understanding. It integrates
+**PySen2Sem** (formerly Physiotrack) is an open-source Python toolkit for contactless human understanding. It integrates
 state-of-the-art computer-vision models (YOLO11, RT-DETR, ViTPose, Sapiens, Depth-Anything-V2,
 ZipDepth, MotionBERT, 6DRepNet360, SegFace, MediaPipe Face Mesh, ETH-XGaze) into a **single, unified API** that extracts actionable, theory-linked
 signals from ordinary **RGB video**, for healthcare, education, XR, and operator-support
@@ -55,9 +55,9 @@ systems. Developed at the **Center for Machine Vision and Signal Processing (CMV
 
 </div>
 
-## Why Physiotrack?
+## Why PySen2Sem?
 
-Foundational models are good at labeling *what* they see. Physiotrack is designed to help systems
+Foundational models are good at labeling *what* they see. PySen2Sem is designed to help systems
 understand *what it means*. It converts an ordinary RGB video stream into interpretable
 human-state features: pose and motion patterns, posture symmetry, head orientation and gaze
 stability, and rPPG-derived heart rate, heart-rate variability (HRV) and respiration rate.
@@ -88,7 +88,7 @@ human *states* instead of processing raw video.
 
 ## Architecture
 
-Physiotrack is organized into **independent, composable subsystems**. Each one works standalone
+PySen2Sem is organized into **independent, composable subsystems**. Each one works standalone
 through the same `predict()` API, and the `Video` orchestrator wires them into an end-to-end
 pipeline. Every neural backend is resolved on demand through the **`Models` registry**, which
 auto-downloads weights from Hugging Face.
